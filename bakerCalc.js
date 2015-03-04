@@ -1,0 +1,1 @@
+BakerCalc = Ember.Application.create();
