@@ -1,0 +1,23 @@
+<div class="container-fluid">
+  <div class="col-md-6 col-md-offset-2">
+
+    <form>
+      <div class="form-group">
+        <label for="Flour">Flour (kg)</label>
+        {{input type="number" id="flour" type="email" class="form-control" value=recipient}}
+      </div>
+
+      <div class="form-group">
+        <label for="Fingernails">Fingernails (kg)</label>
+        {{input type="number" id="fingernails" class="form-control" value=fingernails}}
+      </div>
+
+      <div class="form-group">
+        <label for="Hair" class="form-label">Hair (kg)</label>
+        {{input type="number" id="hair" class="form-control" value=hair}}
+      </div>
+
+      <button class="btn btn-primary" {{action 'add'}}>Add</button>
+    </form>
+  </div>
+</div>

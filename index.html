@@ -5,17 +5,32 @@
       <link rel="stylesheet" href="/css/bootstrap.css">
       <link rel="stylesheet" href="/css/styles.css">
 
-      <script src="libs/jquery-1.10.2.js"></script>
+      <script src="libs/jquery-1.11.1.js"></script>
+      <script src="libs/ember-template-compiler-1.10.0.js"></script>
       <script src="libs/ember-1.10.0.debug.js"></script>
       <script src="libs/ember-handlebars-loader-0.0.2.js"></script>
-      <script src="libs/ember-template-compiler-1.10.0.js"></script>
+      <script src="libs/ember-data-1.0.0-beta.15.js"></script>
+      <script src="libs/localstorage-adapter-0.5.1.js"></script>
 
-      <script src="bakerCalc.js"></script>
-      <script src="controllers/calculator.js"></script>
+      <script src="BakerCalc.js"></script>
       <script src="router.js"></script>
 
+      <script src="models/recipe.js"></script>
+      <script src="controllers/recipe.js"></script>
+      <script src="routes/recipe.js"></script>
+
+      <script src="models/recipes.js"></script>
+      <script src="controllers/recipes.js"></script>
+      <script src="routes/recipes.js"></script>
+
+      <script src="controllers/new-recipe.js"></script>
+      <script src="routes/new-recipe.js"></script>
+
+
       <script>
-        EmberHandlebarsLoader.loadTemplates(['calculator', 'about', 'application']);
+        EmberHandlebarsLoader.loadTemplates(['about', 'application', 'recipe', 'recipes',
+        'new-recipe'
+        ]);
       </script>
     </head>
 
