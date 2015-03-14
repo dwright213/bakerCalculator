@@ -1,5 +1,4 @@
 BakerCalc.RecipesRoute = Ember.Route.extend({
   model: function(){
-    return this.store.find('recipes');
-  }
+    return this.store.find('recipe');  }
 })

@@ -1,6 +1,5 @@
-BakerCalc.Calculator = DS.Model.extend({
-  recipient: DS.attr(),
-  title: DS.attr(),
-  body: DS.attr(),
-  sentDate: DS.attr('date')
+BakerCalc.Recipe = DS.Model.extend({
+  flour: DS.attr(),
+  fingernails: DS.attr(),
+  hair: DS.attr(),
 });
